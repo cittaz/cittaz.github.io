@@ -3,3 +3,18 @@
   margin: 0;
   padding: 0;
 }
+
+.corpo {
+  background-color: #FbFbFb;
+}
+
+.nav1 {
+  background-color: #FbFbFb;
+  margin-top: 5px;
+  position: relative;
+}
+.nav1 .mylogo {
+  position: absolute;
+  left: 224px;
+  top: -7px;
+}

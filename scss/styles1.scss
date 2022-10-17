@@ -1,7 +1,22 @@
-
+$colore2: #FbFbFb;
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+.corpo {
+  background-color: $colore2;
+}
+
+.nav1 {
+  background-color: $colore2;
+  margin-top: 5px;
+  position: relative;
+  .mylogo {
+    position: absolute;
+    left: 224px;
+    top: -7px;
+  }
 }
