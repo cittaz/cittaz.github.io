@@ -7,11 +7,12 @@
   <link rel="stylesheet" href="css/styles1.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <title>My website</title>
+  <script src="https://unpkg.com/feather-icons"></script>
 </head>
 <body class="corpo">
-  <nav class="navbar navbar-expand-lg nav1">
+  <nav class="navbar navbar-expand nav1">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">TOMMASO CITTADINO
+      <a class="navbar-brand" href="#"><h4 class='d-none d-md-inline' style='display: inline;'>TOMMASO CITTADINO</h4>
       <img src="images/logopw2.svg" width="80px" class="mylogo"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -25,23 +26,24 @@
           </div>
         </div>   -->
         <div class="d-flex">
-          <div class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle mx-2" href="#" role="button"
-             data-bs-toggle="dropdown" aria-expanded="false">
-              MENU
+          <div class="nav-item">
+            <a class="nav-link mx-2" href="#" role="button" aria-expanded="false">
+              <h5 class="d-none d-md-inline" style="display: inline;">MENU</h5> <i data-feather="menu" class="mb-2 ms-2"></i>
             </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
+           <!-- <ul class="dropdown-menu">
+              <--! <li><a class="dropdown-item" href="#">Action</a></li>
               <li><a class="dropdown-item" href="#">Another action</a></li>
               <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
+            </ul>  -->
             </div>
           </div>
       </div>
     </div>
   </nav>
 
-
+  <script>
+    feather.replace()
+  </script>
   <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
