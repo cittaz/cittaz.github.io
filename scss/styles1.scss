@@ -20,3 +20,36 @@ $colore2: #FbFbFb;
   }
 }
 
+.minus {
+  margin-bottom: -32px;
+}
+
+.scale:hover {
+  .prova1 {
+  transform: translatey(-5px) rotate(-180deg);
+  transition-duration: .8s;
+  }
+  .prova2 {
+  transform: translatey(5px) rotate(-180deg);
+  transition-duration: .8s;
+  }
+  .prova3 {
+  transform: rotate(360deg);
+  transition-duration: 1.1s;
+  }
+}
+
+.ham {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+
+}
+
+.right-nav {
+  display: flex;
+  flex-direction: row; 
+/*  border-color: black;
+  border-style: solid; */
+  width: 120px;
+}
