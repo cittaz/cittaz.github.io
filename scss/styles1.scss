@@ -1,4 +1,4 @@
-$colore2: #e5e5e5;
+$colore2: #f3f3f3;
 $colore3: #db9602;
 $colore4: #14213d;
 /* font-family: 'Poppins', sans-serif;
@@ -15,8 +15,7 @@ font-family: 'Roboto', sans-serif; */
 html, body {
   background-color: $colore2;
   height: 100%;
-  width: 100%;
-  
+  width: 100%;  
 }
 
 .corpo {
@@ -24,8 +23,27 @@ html, body {
   font-family: 'Poppins', sans-serif;
 }
 
+/* text style */
+.bigtext {
+  font-size: 5.5vh;
+  font-weight: 600;
+  line-height: 50px;
+  margin-bottom: 10px;
+  color: black;
+}
+.clrtext {
+  font-size: 16px;
+  font-weight: 600;
+  color: $colore3;
+}
+.usualtext {
+  font-weight: 500;
+  margin-top: 5px;
+  font-size: 18px;
+  color: $colore4;
+}
+
 .nav1 {
-  background-color: $colore2;
   height: 70px;
   .mylogo {
     position: relative;
@@ -189,28 +207,6 @@ html, body {
     }
   }
 }
-
-.bigtext {
-  font-size: 5.5vh;
-  font-weight: 600;
-  line-height: 50px;
-  margin-bottom: 10px;
-  color: black;
-}
-
-.clrtext {
-  font-size: 16px;
-  font-weight: 600;
-  color: $colore3;
-}
-
-.usualtext {
-  font-weight: 500;
-  margin-top: 5px;
-  font-size: 18px;
-  color: $colore4;
-}
-
 
 .left {
   display: flex;

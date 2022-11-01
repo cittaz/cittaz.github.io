@@ -7,18 +7,39 @@ font-family: 'Roboto', sans-serif; */
 }
 
 html, body {
-  background-color: #e5e5e5;
+  background-color: #f3f3f3;
   height: 100%;
   width: 100%;
 }
 
 .corpo {
-  background-color: #e5e5e5;
+  background-color: #f3f3f3;
   font-family: "Poppins", sans-serif;
 }
 
+/* text style */
+.bigtext {
+  font-size: 5.5vh;
+  font-weight: 600;
+  line-height: 50px;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.clrtext {
+  font-size: 16px;
+  font-weight: 600;
+  color: #db9602;
+}
+
+.usualtext {
+  font-weight: 500;
+  margin-top: 5px;
+  font-size: 18px;
+  color: #14213d;
+}
+
 .nav1 {
-  background-color: #e5e5e5;
   height: 70px;
 }
 .nav1 .mylogo {
@@ -168,27 +189,6 @@ html, body {
           text-decoration: underline #db9602;
   color: black;
   font-size: 30px;
-}
-
-.bigtext {
-  font-size: 5.5vh;
-  font-weight: 600;
-  line-height: 50px;
-  margin-bottom: 10px;
-  color: black;
-}
-
-.clrtext {
-  font-size: 16px;
-  font-weight: 600;
-  color: #db9602;
-}
-
-.usualtext {
-  font-weight: 500;
-  margin-top: 5px;
-  font-size: 18px;
-  color: #14213d;
 }
 
 .left {
@@ -349,7 +349,7 @@ html, body {
   width: 11.42vw;
   height: 4vh;
   border: 2px solid #db9602;
-  border-right: 0px solid #e5e5e5;
+  border-right: 0px solid #f3f3f3;
   background-color: rgba(219, 150, 2, 0.1921568627);
   box-shadow: rgba(110, 110, 110, 0.8) 0px 5px 4px 1px;
 }
@@ -396,7 +396,7 @@ html, body {
 }
 
 .bar1 {
-  border-right: 1.6px solid #e5e5e5;
+  border-right: 1.6px solid #f3f3f3;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
   position: relative;
@@ -613,7 +613,7 @@ html, body {
   width: max-content;
   border: none;
   border-radius: 20px;
-  background-color: #e5e5e5;
+  background-color: #f3f3f3;
   padding: 10px;
 }
 .submitbtn:hover {
