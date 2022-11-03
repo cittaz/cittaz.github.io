@@ -112,6 +112,16 @@
       font-size: 3vw;
     }
   }
+  
+  .el:active .inside {
+    visibility: visible;
+    height: 100%;
+    opacity: 1;
+    
+    h3, h6 {
+      opacity: 1;
+    }
+  }
 
   .formstyle0 {
     width: 100%;

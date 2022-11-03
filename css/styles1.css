@@ -949,6 +949,14 @@ footer .ft0 .ft2 a, footer .ft0 .ft2 a:hover, footer .ft0 .ft2 a:visited, footer
   .inside h6 {
     font-size: 3vw;
   }
+  .el:active .inside {
+    visibility: visible;
+    height: 100%;
+    opacity: 1;
+  }
+  .el:active .inside h3, .el:active .inside h6 {
+    opacity: 1;
+  }
   .formstyle0 {
     width: 100%;
   }
