@@ -1,0 +1,173 @@
+@media screen and (max-width: 768px) {
+  .right-nav {
+    margin-right: -20px;
+  }
+
+  .popup {
+    align-items: flex-start;
+    .menu2 {
+      padding-top: 12%;
+    }
+    .close {
+      position: absolute;
+      top: 4vw;
+      right: 4vw;
+      width: 8vw;
+    }
+  }
+
+  .nav1 {
+    height: 5vh;
+  }
+
+  .principale {
+    margin-top: 0;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    align-items: center;
+    height: 80vh;
+    h1 {
+      font-size: 4vw;
+    }
+    h3 {
+      font-size: 3vw;
+    }
+    h6 {
+      font-size: 2.6vw;
+    }
+  }
+
+  .right {
+    width: 80%;
+    margin-right: 0;
+    margin-left: 0;
+    z-index: 2; 
+  }
+  .rightsm {
+    padding-bottom: 40px;
+    padding-top: 40px;
+    height: 30%;
+  }
+
+  .left {
+    width: 80%;
+    margin-left: 0;
+    margin-top: 20px;
+    z-index: 3; 
+  }
+  .leftsm {
+    height: 45%;
+  }
+  .pics1 {
+    max-height: 350px;
+  }
+
+  .secondaria {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center; 
+    align-items: center;
+    width: 100%;
+    margin-top: 12px;
+  }
+  #projects {
+    background-color: #f3f3f3;
+    height: max-content;
+    .separa {
+      display: none;
+    }
+  }
+
+  .grid {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .roww {
+    width: 80%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .el {
+    width: 70vw;
+    height: 65vw;
+    margin-left: 0;
+    margin-right: 0;
+    box-shadow: rgba(9, 9, 9, 0.6) 0px 4px 12px;
+  }
+  .el1 {
+    margin-bottom: 28px;
+  }
+  .inside {
+    h3 {
+      margin-right: 4em;
+      font-size: 3vw;
+    }
+    h6 {
+      font-size: 3vw;
+    }
+  }
+
+  .formstyle0 {
+    width: 100%;
+    #insname, #insmail {
+      width: 30vw;
+    }
+  }
+
+  footer {
+    padding: 15px 10px;
+    h1 {
+      font-size: 20px;
+    }
+    h3 {
+      font-size: 13px;
+    }
+    li {
+      font-size: 13px;
+    }
+  }
+
+  .terza {
+    h3 {
+      display: none;
+    }
+    .espandibile {
+      display: none;
+    }
+  }
+
+  #imm1 {
+    display: none;
+  }
+  #imm2 {
+    display: block;
+  }
+
+  .roww2 {
+    display: none;
+  }
+  .smalldisp {
+    display: block;
+  }
+  .bigdisp {
+    display: none;
+  }
+  
+}
+
+@media screen and (min-width: 500px) and (max-width: 768px) and (max-height: 640px) {
+  .leftsm {
+    margin: 0;
+    padding: 0;
+  }
+  .rightsm {
+    height: 30vh;
+    background-image: none;
+  }
+}

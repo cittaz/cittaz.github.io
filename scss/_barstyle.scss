@@ -1,0 +1,155 @@
+.bar1 {
+  border-right: 2px solid $colore2;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  position: relative;
+  background-color: $colore3;
+  
+  .htmllogo {
+    position: absolute;
+    bottom: 4.5vh;
+    left: 50%;
+    transform: translatex(-50%);
+   }
+   .espandibile1 {
+     visibility: hidden;
+     position: relative;
+     top: 4vh;
+    }
+    #expand-togglexx:checked ~ * .espandibile1 {
+      visibility: visible;
+    }
+    #expand-togglexx {
+      display: none;
+    }
+}
+
+.bar2 {
+  position: relative;
+  background-color: $colore3;
+  border-left: 2px solid $colore2;
+  .csslogo {
+    position: absolute;
+    bottom: 4.5vh;
+    left: 50%;
+    transform: translatex(-50%);
+  }
+  .espandibile2 {
+    visibility: hidden;
+    position: relative;
+    top: 4vh;
+   }
+   #expand-togglexx2:checked ~ * .espandibile2 {
+    visibility: visible;
+  }
+  #expand-togglexx2 {
+    display: none;
+  } 
+}
+.bar3 {
+  position: relative;
+  .javascriptlogo {
+    position: absolute;
+    bottom: 4.5vh;
+    left: 50%;
+    transform: translatex(-50%);
+  }
+  .espandibile3 {
+    visibility: hidden;
+    position: relative;
+    top: 4vh;
+   }
+   #expand-togglexx3:checked ~ * .espandibile3 {
+    visibility: visible;
+  }
+  #expand-togglexx3 {
+    display: none;
+  }
+  img {
+    width: 7vh;
+  } 
+}
+.bar4 {
+  position: relative;
+  .reactjslogo {
+    position: absolute;
+    bottom: 4.5vh;
+    left: 50%;
+    transform: translatex(-50%);
+    margin-bottom: -7px;
+  }
+  .espandibile4 {
+    visibility: hidden;
+    position: relative;
+    top: 4vh;
+   }
+   #expand-togglexx4:checked ~ * .espandibile4 {
+    visibility: visible;
+  }
+  #expand-togglexx4 {
+    display: none;
+  } 
+}
+.bar5 {
+  position: relative;
+  .nodejslogo {
+    position: absolute;
+    bottom: 4.5vh;
+    left: 50%;
+    transform: translatex(-50%);
+  }
+  .espandibile5 {
+    visibility: hidden;
+    position: relative;
+    top: 4vh;
+   }
+   #expand-togglexx5:checked ~ * .espandibile5 {
+    visibility: visible;
+  }
+  #expand-togglexx5 {
+    display: none;
+  } 
+}
+.bar6 {
+  position: relative;
+  .wordpresslogo {
+    position: absolute;
+    bottom: 4.5vh;
+    left: 50%;
+    transform: translatex(-50%);
+  }
+  .espandibile6 {
+    visibility: hidden;
+    position: relative;
+    top: 4vh;
+   }
+   #expand-togglexx6:checked ~ * .espandibile6 {
+    visibility: visible;
+  }
+  #expand-togglexx6 {
+    display: none;
+  } 
+}
+.bar7 {
+  position: relative;
+  border-right: 2px solid $colore3;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  .stilogo {
+    position: absolute;
+    bottom: 4.5vh;
+    left: 50%;
+    transform: translatex(-50%);
+  }
+  .espandibile7 {
+    visibility: hidden;
+    position: relative;
+    top: 4vh;
+   }
+   #expand-togglexx7:checked ~ * .espandibile7 {
+    visibility: visible;
+  }
+  #expand-togglexx7 {
+    display: none;
+  }
+}

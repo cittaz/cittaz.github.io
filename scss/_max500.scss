@@ -1,0 +1,64 @@
+@media screen and (max-width: 500px) {
+  .principale {
+    h1 {
+      font-size: 22px;
+      line-height: 24px;
+      margin-bottom: .4em;
+    }
+    h3 {
+      font-size: 18px;
+    }
+    h6 {
+      font-size: 15px;
+      padding-top: 6px;
+    }
+    
+    .pics1 {
+      min-width: 220px;
+    }
+  }
+  
+  .left {
+      width: 90vw;
+    }
+    .right {
+      width: 90vw;
+    }
+
+  .rightsm {
+    padding-bottom: 0;
+  }
+  .leftsm {
+    margin-top: 10%;
+  }
+
+  .titolo3 {
+    width: 90vw;
+    margin-left: 5vw;
+  }
+  .progress1 {
+    width: 90vw;
+    margin-left: 5vw;
+  }
+
+  .formstyle1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    #insname, #insmail {
+      width: 67vw;
+    }
+    #insname {
+      margin-bottom: 23px;
+    }
+  }
+
+  footer {
+    height: max-content;
+    ul {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  }

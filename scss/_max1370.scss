@@ -1,0 +1,54 @@
+@media screen and (max-width: 1370px) {
+  .titolo3 {
+    margin-top: -2vh;
+  }
+  .progress1 {
+    height: 380px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 2vh;
+    box-shadow: none;
+
+    img:hover {
+      transform: scale(1.1) translatex(-45%) translateY(-5%);
+    }
+  }
+  .barx {
+    width: 30%;
+    img {
+      max-width: 50px;
+    }
+  }
+
+  .bar3 {
+    border-right: 2px solid $colore3;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  .bar4 {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  .bar6 {
+    border-right: 2px solid $colore3;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  .bar7 {
+    display: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+
+  .reactjslogo {
+    margin-top: -5px;
+  }
+
+  .kkx {
+    display: none;
+  }
+}
