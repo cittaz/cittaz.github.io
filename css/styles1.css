@@ -916,6 +916,7 @@ footer .ft0 .ft2 a, footer .ft0 .ft2 a:hover, footer .ft0 .ft2 a:visited, footer
     height: -webkit-max-content;
     height: -moz-max-content;
     height: max-content;
+    padding-bottom: 45px;
   }
   #projects .separa {
     display: none;
