@@ -114,7 +114,8 @@
     }
   }
   
-  .el:active .inside {
+  .el:hover, .el:active {
+    .inside {
     visibility: visible;
     height: 100%;
     opacity: 1;
@@ -122,6 +123,7 @@
     h3, h6 {
       opacity: 1;
     }
+  }
   }
 
   .formstyle0 {
