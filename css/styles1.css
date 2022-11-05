@@ -630,7 +630,7 @@ html, body {
   flex-direction: column;
   justify-content: center;
   height: 100vh;
-  width: 100vw;
+  width: 100%;
 }
 .quarta h6, .quarta h1, .quarta h3 {
   margin-left: 10vw;
