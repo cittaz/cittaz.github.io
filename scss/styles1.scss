@@ -1,12 +1,13 @@
 @import 'generalstyles';
 @import 'popupmenu';
 
-.primapagina {
+.firstPage {
   position: relative;
   width: 100%;
   height: 100vh;
   display: flex;
   flex-direction: column;
+  background-color: $colore2;
 }
 
 .nav1 {
@@ -21,18 +22,18 @@
   .brand {
     margin-top: 8px;
     margin-left: 15px;
-    .bigdisp {
+    .bigDisplay {
       font-size: 25px;
       font-weight: 600;
     }
   }
-  .rightnav {
+  .rightNav {
     display: flex;
     flex-direction: row; 
     margin-right: 10px;
     margin-top: 5px;
 
-    .navbarmenu {
+    .navbarMenu {
       display: flex;
       flex-direction: row;
       align-items: center;
@@ -68,7 +69,7 @@
   }
 }
 
-.principale {
+.main {
   position: relative;
   display: flex;
   flex-direction: row;
@@ -83,7 +84,7 @@
     margin-top: 0.15em;
     margin-bottom: 0.4em;
   }  
-  h3 {
+  p {
     color: $colore4;
     font-size: 28px;
     font-weight: 500;
@@ -129,7 +130,7 @@
   height: 100%;
 }
 
-.separa {
+.divide {
   position: absolute;
   bottom: 25px;
   left: 50%;
@@ -146,7 +147,7 @@
   object-fit: contain;
 }
 
-.secondaria {
+.minor {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -211,14 +212,14 @@
   height: 0%;
   transition: .5s;
   border-radius: 20px;
-  h3 {
+  p {
    font-size: 1.4vw;
    opacity: 0;
    transition: .4s;
    color: white;
    margin: .7em 6em 1em 15px;
   }
-  h6 {
+  h2 {
     font-size: 1.5vw;
     opacity: 0;
     transition: .4s;
@@ -233,12 +234,12 @@
   height: 100%;
   opacity: 1;
   
-  h3, h6 {
+  p, h2 {
     opacity: 1;
   }
 }
 
-.terza {
+.third {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -277,70 +278,17 @@
   }
 }
 
-.barx {
-  width: 11.42vw;
-  height: 4vh;
-  border: 2px solid $colore3;
-  background-color: #db960231;
- 
-  a {
-    text-decoration: underline;
-    &:hover {
-      color: black;
-      text-decoration: underline; 
-    }
-    &:visited {
-      text-decoration: underline;
-      color: black;
-    }
-    &:visited:hover {
-      text-decoration: underline ;
-      color: black;
-    }
-  }
-  img {
-    z-index: 2;
-  }  
-}
-
-.espandibile {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  background-color: #14213dc6;
-  width: 100%;
-  height: max-content;
-  border-bottom-left-radius: 12px;
-  border-bottom-right-radius: 12px;
-  h5 {
-    color: $colore2;
-    margin: 3%;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 18px;
-    strong {
-      font-weight: 500;
-      color: $colore3;
-    }
-    a:visited,
-    a:hover,
-    a:visited:hover,
-    a {
-      text-decoration-color: white;
-    }
-  }
-}
-
 @import 'barstyle';
 
-.quarta {
+.fourth {
   background-color: #f3f3f3;
   display: flex;
   flex-direction: column;
   justify-content: center;
   height: 100vh;
   width: 100%;
-  h6, h1, h3 {
+  margin: auto;
+  h2, p {
     margin-left: 10vw;
     margin-right: 10vw;
   }
@@ -433,13 +381,17 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  h1 {
+  h2 {
     font-size: 28px;
     font-weight: 600;
   }
-  h3 {
+  p {
     font-weight: 400;
     font-size: 16px;
+  }
+  h5 {
+    font-size: 12px;
+    font-weight: 400;;
   }
   .iconx {
     width: 50%;
@@ -452,19 +404,19 @@ footer {
       transform: scale(1.1);
     }
   }
-  .ft0 {
+  .footer0 {
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    .ft1 {
+    .footer1 {
       display: flex;
       flex-direction: column;
       a, a:hover, a:visited, a:visited:hover {
         color: $colore2;
       }
     }
-    .ft2 {
+    .footer2 {
       display: flex;
       flex-direction: column;
       .linklist {
@@ -481,7 +433,7 @@ footer {
   }
 }
 
-.smalldisp {
+.smallDisplay {
   display: none;
 }
 .roww2 {
@@ -501,7 +453,7 @@ footer {
   .progress1 {
     margin-top: -2vh;
   }
-  .espandibile {
+  .ext {
     h5 {
       font-size: 12px;
     }
@@ -512,18 +464,18 @@ footer {
 }
 
 @media screen and (max-height: 650px) and (min-width: 768px) and (max-width: 1300px) {
-  .principale {
+  .main {
     h1 {
       font-size: 5vh;
       margin-bottom: .3em;
       margin-top: 0;
       padding: 0;
     }
-    h3 {
+    p {
       font-size: 4.3vh;
       line-height: 1.2em;
     }
-    h6 {
+    h2 {
       font-size: 3vh;
       margin: 0;
       padding: 0;
@@ -533,11 +485,30 @@ footer {
 
 @media screen and (min-width: 1400px) {
   .inside {
-    h3 {
+    p {
       font-size: 18px;
     }
-    h6 {
+    h2 {
       font-size: 18px;
     }
+  }
+}
+
+@media screen and (max-height: 500px) {
+ #projects, #progressBar, #contact, footer {
+    height: max-content;
+    padding: 18px 0px;
+  }
+  #firstPage {
+    height: 500px;
+    
+    .leftSmall {
+      padding-top: 30px;
+      margin-bottom: -30px;
+    }
+    .rightSmall {
+      margin-bottom: 40px;
+    }
+    
   }
 }

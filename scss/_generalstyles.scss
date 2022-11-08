@@ -15,27 +15,27 @@ html, body {
 }
 
 // font-family: 'Poppins', sans-serif; font-family: 'Roboto', sans-serif;
-.bigtext {
+.bigText {
   font-size: 5.5vh;
   font-weight: 600;
   line-height: 50px;
   margin-bottom: 10px;
   color: black;
 }
-.clrtext {
+.color3Text {
   font-size: 16px;
   font-weight: 600;
   color: $colore3;
 }
-.usualtext {
+.usualText {
   font-weight: 500;
   margin-top: 5px;
-  font-size: 18px;
+  font-size: 22px;
   color: $colore4;
 }
 
 //black links
-.standardlink {
+.standardLink {
   color: black;
   text-decoration: none;
   &:hover {
@@ -53,7 +53,7 @@ html, body {
  } 
 
  @media screen and (min-height: 960px) {
-  .bigtext {
+  .bigText {
     font-size: 50px;
   }
 }
