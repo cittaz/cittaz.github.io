@@ -232,8 +232,7 @@ html, body {
   font-style: italic;
 }
 .main a:hover {
-  -webkit-text-decoration: underline #db9602;
-          text-decoration: underline #db9602;
+  text-decoration: underline #db9602;
   color: black;
 }
 .main a:visited {
@@ -241,8 +240,7 @@ html, body {
   color: #14213d;
 }
 .main a:visited:hover {
-  -webkit-text-decoration: underline #db9602;
-          text-decoration: underline #db9602;
+  text-decoration: underline #db9602;
   color: black;
   font-size: 30px;
 }
@@ -278,8 +276,7 @@ html, body {
 .pics1 {
   max-width: 50vw;
   max-height: 60vh;
-  -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
 }
 
 .minor {
@@ -355,14 +352,15 @@ html, body {
 .inside p {
   font-size: 1.4vw;
   opacity: 0;
-  transition: 0.4s;
+  transition: 0.6s;
+  transition-delay: 0.15s;
   color: white;
   margin: 0.7em 6em 1em 15px;
 }
 .inside h2 {
   font-size: 1.5vw;
   opacity: 0;
-  transition: 0.4s;
+  transition: 0.6s;
   color: #db9602;
   margin-left: 15px;
   padding-top: 12px;
@@ -454,8 +452,6 @@ html, body {
   text-align: center;
   background-color: rgba(20, 33, 61, 0.7764705882);
   width: 100%;
-  height: -webkit-max-content;
-  height: -moz-max-content;
   height: max-content;
   border-bottom-left-radius: 12px;
   border-bottom-right-radius: 12px;
@@ -478,8 +474,7 @@ html, body {
 .ext h5 a:hover,
 .ext h5 a:visited:hover,
 .ext h5 a {
-  -webkit-text-decoration-color: white;
-          text-decoration-color: white;
+  text-decoration-color: white;
 }
 
 .bar1 {
@@ -643,8 +638,6 @@ textarea:focus, input:focus {
   font-weight: 600;
   font-size: 18px;
   margin-top: 28px;
-  width: -webkit-max-content;
-  width: -moz-max-content;
   width: max-content;
   border: none;
   border-radius: 20px;
@@ -846,8 +839,6 @@ footer .footer0 .footer2 a, footer .footer0 .footer2 a:hover, footer .footer0 .f
   }
   #projects {
     background-color: #f3f3f3;
-    height: -webkit-max-content;
-    height: -moz-max-content;
     height: max-content;
     padding-bottom: 45px;
   }
@@ -890,6 +881,7 @@ footer .footer0 .footer2 a, footer .footer0 .footer2 a:hover, footer .footer0 .f
     width: 30vw;
   }
   footer {
+    height: 300px;
     padding: 15px 10px;
   }
   footer h2 {
@@ -900,6 +892,17 @@ footer .footer0 .footer2 a, footer .footer0 .footer2 a:hover, footer .footer0 .f
   }
   footer li {
     font-size: 13px;
+  }
+  footer .footer0 {
+    flex-direction: column;
+  }
+  footer .footer1 {
+    align-items: center;
+    padding: 10px;
+  }
+  footer .footer2 {
+    align-items: center;
+    padding: 10px;
   }
   .third p {
     display: none;
@@ -982,8 +985,6 @@ footer .footer0 .footer2 a, footer .footer0 .footer2 a:hover, footer .footer0 .f
     margin-bottom: 23px;
   }
   footer {
-    height: -webkit-max-content;
-    height: -moz-max-content;
     height: max-content;
   }
   footer ul {
@@ -1029,8 +1030,6 @@ footer .footer0 .footer2 a, footer .footer0 .footer2 a:hover, footer .footer0 .f
 }
 @media screen and (max-height: 500px) {
   #projects, #progressBar, #contact, footer {
-    height: -webkit-max-content;
-    height: -moz-max-content;
     height: max-content;
     padding: 18px 0px;
   }
