@@ -271,10 +271,11 @@
   img {
     width: 8vh;
     z-index: 11;
+    transition-duration: 0.3s;
   }
   img:hover {
     transform: scale(1.2) translatex(-40%) translateY(-8%);
-    transition-duration: 0.3s;
+    
     cursor: pointer;
   }
 }
