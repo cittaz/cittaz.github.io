@@ -899,10 +899,15 @@ footer .footer0 .footer2 a, footer .footer0 .footer2 a:hover, footer .footer0 .f
   footer .footer1 {
     align-items: center;
     padding: 10px;
+    text-align: center;
   }
   footer .footer2 {
     align-items: center;
     padding: 10px;
+    text-align: center;
+  }
+  footer br {
+    display: none;
   }
   .third p {
     display: none;
