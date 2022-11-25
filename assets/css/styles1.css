@@ -27,7 +27,7 @@ html, body {
 .usualText {
   font-weight: 500;
   margin-top: 5px;
-  font-size: 22px;
+  font-size: 16px;
   color: #14213d;
 }
 
@@ -83,7 +83,6 @@ html, body {
   transition: opacity 0.8s;
 }
 .popup a {
-  margin-top: 0px;
   color: #fff;
   text-decoration: none;
 }
@@ -784,10 +783,14 @@ footer .footer0 .footer2 a, footer .footer0 .footer2 a:hover, footer .footer0 .f
     position: absolute;
     top: 4vw;
     right: 4vw;
-    width: 8vw;
+    width: 32px;
   }
   .nav1 {
     height: 5vh;
+  }
+  .nav1 .smallDisplay {
+    font-size: 25px;
+    margin-top: 7px;
   }
   .main {
     margin-top: 0;
@@ -956,6 +959,9 @@ footer .footer0 .footer2 a, footer .footer0 .footer2 a:hover, footer .footer0 .f
   }
   .main .pics1 {
     min-width: 220px;
+  }
+  .content a {
+    font-size: 45px;
   }
   .left {
     width: 90vw;

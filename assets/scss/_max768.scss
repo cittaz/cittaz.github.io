@@ -12,12 +12,16 @@
       position: absolute;
       top: 4vw;
       right: 4vw;
-      width: 8vw;
+      width: 32px;
     }
   }
 
   .nav1 {
     height: 5vh;
+    .smallDisplay {
+      font-size: 25px;
+      margin-top: 7px;
+    }
   }
 
   .main {
