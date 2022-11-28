@@ -86,7 +86,7 @@
   }  
   p {
     color: $colore4;
-    font-size: 28px;
+    font-size: 25px;
     font-weight: 500;
     line-height: 1.25em;
   }
@@ -227,6 +227,9 @@
     color: $colore3;
     margin-left: 15px;
     padding-top: 12px;
+   }
+   a:visited {
+    color: white;
    }
 }
 

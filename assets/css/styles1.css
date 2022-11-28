@@ -220,7 +220,7 @@ html, body {
 }
 .main p {
   color: #14213d;
-  font-size: 28px;
+  font-size: 25px;
   font-weight: 500;
   line-height: 1.25em;
 }
@@ -363,6 +363,9 @@ html, body {
   color: #db9602;
   margin-left: 15px;
   padding-top: 12px;
+}
+.inside a:visited {
+  color: white;
 }
 
 .el:hover .inside {

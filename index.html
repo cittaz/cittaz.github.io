@@ -43,7 +43,7 @@
     <div class="left leftSmall">
     <h2 class="color3Text">SOMETHING ABOUT ME</h2>
     <h1>Full stack web developer</h1>
-    <p>I'm Tommaso Cittadino, a full stack developer
+    <p>I'm Tommaso Cittadino, a 21 years old full stack developer
       student who is working hard to become an expert in the field of web developing.
       I'm focusing my studies in responsive websites and functional
        user interface following a <a href="#progressBar">roadmap</a>.
@@ -96,9 +96,10 @@
       </div>
       <div class="el el2" ontouchstart=''>
         <div class="inside">
-           <h2 class="color3Text">MY SECOND PROJECT</h2>
-           <p class="usualText">This is the container of my second project.<br>Here I'm going to use
-            basic Javascript to build a calculator.</p>
+           <h2 class="color3Text">USELESS COUNTER</h2>
+           <p class="usualText"> <a href="https://uselessjscounter.netlify.app" target="_blank">Useless counter</a> is a
+           basic website built with JavaScript. <br>As you can see, it is completely useless and realized only as a training
+          for JavaScript coding.</p>
         </div>
       </div>
       </div>
@@ -184,9 +185,9 @@
   <section id='contact' class="fourth">
     <h2 class="color3Text">CONTACT</h2>
     <h2 class="bigText">Get in touch</h2>
-    <p class="usualText">Feel free to contact me, I'll be pleased to answer any questions or to just have a chat.</p>
+    <p id="contactParagraph" class="usualText">Feel free to contact me, I'll be pleased to answer any questions or to just have a chat.</p>
     <div class="formz">
-      <form action="https://formsubmit.co/tommasocittadino.dev@gmail.com" method="POST">
+       <form id="form" action="https://formsubmit.co/tommasocittadino.dev@gmail.com" method="POST"> 
         <fieldset>
           <div class="formstyle0">
             <div class="formstyle1">
@@ -194,8 +195,8 @@
               <input type="email" id="insmail" name="email" placeholder="Your email">
             </div>
             <div class="formstyle2">
-              <textarea class='txtarea' name="message" placeholder="Write here and submit the form, I'll answer you as soon as possible."></textarea>
-              <input class='submitbtn' type="submit" value="Send message"> 
+              <textarea class='txtarea' id="instext" name="message" placeholder="Write here and submit the form, I'll answer you as soon as possible."></textarea>
+              <input class='submitbtn' id="submit" type="submit" value="Send message"> 
             </div>
           </div>  
         </fieldset>
@@ -233,5 +234,6 @@
     </div>
   </footer>
 
+  <script src="./assets/js/script.js"></script>
 </body>
 </html>
