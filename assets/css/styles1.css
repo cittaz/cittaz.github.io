@@ -495,6 +495,7 @@ html, body {
 .bar2 {
   background-color: #db9602;
   border-left: 2px solid #ededed;
+  border-right: 2px solid #ededed;
 }
 .bar2 #expand-togglexx2:checked ~ * .ext {
   visibility: visible;
@@ -503,6 +504,10 @@ html, body {
   display: none;
 }
 
+.bar3 {
+  border-left: 2px solid #ededed;
+  background-color: #db9602;
+}
 .bar3 #expand-togglexx3:checked ~ * .ext {
   visibility: visible;
 }

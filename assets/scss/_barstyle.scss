@@ -82,6 +82,7 @@
 .bar2 {
   background-color: $colore3;
   border-left: 2px solid $colore2;
+  border-right: 2px solid $colore2;
 
    #expand-togglexx2:checked ~ * .ext {
     visibility: visible;
@@ -91,7 +92,8 @@
   } 
 }
 .bar3 {
-
+  border-left: 2px solid $colore2;
+  background-color: $colore3;
    #expand-togglexx3:checked ~ * .ext {
     visibility: visible;
   }
